@@ -1,13 +1,15 @@
 Todo:
-1: import laravelprojectone.sql in je database
+## 1: import laravelprojectone.sql in je database
 -> open het project in PHPStorm en vanaf die terminal:
-2: composer install
-3: npm install
-4: php artisan serve
-5: npm run dev
-6: ga naar url: http://127.0.0.1:8000/producten/1
-7: bekijk de Controllers in App/Http/Controllers
-8: zie: resources/classes/
+
+## 2: composer install
+
+## 3: npm install
+## 4: php artisan serve
+## 5: npm run dev
+## 6: ga naar url: http://127.0.0.1:8000/producten/1
+## 7: bekijk de Controllers in App/Http/Controllers
+## 8: zie: resources/classes/
 
 Persoonlijk:
 
