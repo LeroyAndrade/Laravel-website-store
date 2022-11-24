@@ -29,10 +29,10 @@
 
                         <?php //prijs terugkrijgen en afbreken op decimalen voor de view effect van de decimalen
                             $comb = $companies[$keyCompany]->{'price'};
-                            $folderNaam = explode('.', $comb);
+                            $productPrijsVanDb = explode('.', $comb);
                         ?>
                         <div class="prijsContainer">
-                            <span class="SinglePrijs"><?php echo $folderNaam[0]?>&#46;<span class="doublePrijs"><?php echo $folderNaam[1]?></span> </span>
+                            <span class="SinglePrijs"><?php echo $productPrijsVanDb[0]?>&#46;<span class="doublePrijs"><?php echo $productPrijsVanDb[1]?></span> </span>
                         </div>
 
 
