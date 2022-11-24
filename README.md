@@ -1,3 +1,12 @@
+# Handig om door te nemen:
+
+## 0.1 Web: [https://github.com/LeroyAndrade/Laravel-website-store/blob/master/routes/web.php](https://github.com/LeroyAndrade/Laravel-website-store/blob/99ccd17ffcbfc386ec3a994b4f0bfdfdbdf0f6f6/routes/web.php#L37)
+
+## 0.2 Controller product pagina https://github.com/LeroyAndrade/Laravel-website-store/blob/99ccd17ffcbfc386ec3a994b4f0bfdfdbdf0f6f6/app/Http/Controllers/ProductController.php#L27
+
+## 0.3 Views: https://github.com/LeroyAndrade/Laravel-website-store/blob/master/resources/views/product.blade.php
+
+
 Todo:
 ## 1: import laravelprojectone.sql in je database
 -> open het project in PHPStorm en vanaf die terminal:
