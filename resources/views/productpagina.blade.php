@@ -31,7 +31,7 @@ $conf = new globalConfigs();
 
 
 
-                foreach ($productMetId as $productKey=>$val) : ?>
+                foreach (@$productMetId as $productKey=>$val) : ?>
                     <img class="imageBig" src="{{ Vite::asset($conf->uploadImg.$val->imageBig) }}" alt="<?php echo $val->{'title'} ?> ">
                     <?php
             //            echo $val->title;
