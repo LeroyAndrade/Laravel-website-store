@@ -1,5 +1,5 @@
 //@include breakpoint ($small){}
-
+@use 'productPaginaShow';
 *{
     margin: 0; padding: 0;
 }
@@ -19,7 +19,7 @@ header{
 }
 
 .imageBig{
-    max-height: 399px;
+     max-height: 399px;
 }
 
 .allProductItems{
