@@ -17,10 +17,8 @@ use App\Services\PodcastParser;
 */
 
 
-
 Route::get('/', function () {
-    dd(app());
-
+//    dd(app());
 });
 
 Route::get('/dashboard', function () {
@@ -34,8 +32,6 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
-
-
 Route::prefix('/producten')->group(function() {
     Route::get('/{number}', 'ProductController@show')->where('id', '[0-9]+');
     Route::get('/productpagina/{productId}', 'ProductController@productPaginaVanId')->where('productId', '[0-9]+');
