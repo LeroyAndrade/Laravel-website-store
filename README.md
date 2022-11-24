@@ -1,10 +1,14 @@
 # Handig om door te nemen:
 
+## Web:
+[https://github.com/LeroyAndrade/Laravel-website-store/blob/master/routes/web.php](https://github.com/LeroyAndrade/Laravel-website-store/blob/99ccd17ffcbfc386ec3a994b4f0bfdfdbdf0f6f6/routes/web.php#L37)
+
+## Controller product pagina 
+https://github.com/LeroyAndrade/Laravel-website-store/blob/99ccd17ffcbfc386ec3a994b4f0bfdfdbdf0f6f6/app/Http/Controllers/ProductController.php#L27
+
 ## Views: 
 https://github.com/LeroyAndrade/Laravel-website-store/blob/master/resources/views/product.blade.php
 
-## Web:
-https://github.com/LeroyAndrade/Laravel-website-store/blob/master/routes/web.php
 
 Todo:
 ## 1: import laravelprojectone.sql in je database
